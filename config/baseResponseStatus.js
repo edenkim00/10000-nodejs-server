@@ -8,4 +8,5 @@ module.exports = {
     EMPTY_RECORD: { "isSuccess": false, "code": 3002, "message": "There is no record" },
     WRONG_USER_ID: { "isSuccess": false, "code": 4001, "message": "Wrong User" },
     INVALID_TIMESTAMP_OF_RECORD: { "isSuccess": false, "code": 5001, "message": "Invalid time" },
+    DB_ERROR: { "isSuccess": false, "code": 6001, "message": "DB error" },
 }
